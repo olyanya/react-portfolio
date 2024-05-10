@@ -24,9 +24,9 @@
 }
 
 .desktopMenuListItem:hover {
-  color: yellow;
+  color: goldenrod;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid goldenrod;
 }
 
 .desktopMenuButton {
