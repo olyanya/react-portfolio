@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  color: #4f4e4e;
+  font-size: small;
+  font-weight: 300;
+}
+
+.leftSection {
+  margin-right: 20px;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.footerIcon {
+  font-size: 20px;
+  color: #333;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.footerIcon:hover {
+  color: goldenrod;
+}
