@@ -1,7 +1,7 @@
 import React from "react";
 import "./intro.css";
 import { Link } from "react-scroll";
-import buttonImg from "../../assets/hireme.png";
+import contactButton from "../../assets/contactme.png";
 
 const Intro = () => {
   return (
@@ -19,7 +19,7 @@ const Intro = () => {
         </p>
         <Link>
           <button className="button">
-            <img src={buttonImg} alt="button" className="buttonImg" />
+            <img src={contactButton} alt="button" className="buttonImg" />
             Contact me
           </button>
         </Link>
