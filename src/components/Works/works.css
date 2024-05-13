@@ -1,0 +1,110 @@
+#works {
+  margin: 0 auto;
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.worksTitle {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.worksDesc {
+  margin-bottom: 2rem;
+  font-weight: 200;
+  font-size: 1rem;
+  max-width: 45rem;
+}
+
+.worksProjects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 65rem;
+}
+
+.worksButton {
+  margin: 1rem;
+  display: inline-block;
+  padding: 10px 20px;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.worksButton:hover {
+  background-color: goldenrod;
+}
+
+.worksItems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.worksBox {
+  width: calc(35% - 1.3rem);
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding: 3rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  position: relative;
+}
+.githubIcon {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+  cursor: pointer;
+  color: goldenrod;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.projectName {
+  font-size: 1.25rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.languageBox {
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 0.85rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.2rem;
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
+  transition: border-color 0.5s ease;
+}
+
+.languageBox:hover {
+  background-color: goldenrod;
+}
+
+@media screen and (max-width: 585px) {
+  .worksImg {
+    height: 45vw;
+  }
+}
