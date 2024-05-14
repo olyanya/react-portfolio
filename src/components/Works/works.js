@@ -21,17 +21,17 @@ const Works = () => {
     },
     {
       name: "Rating Stars (Package)",
-      languages: ["Flutter", "Rive"],
+      languages: ["Flutter", "Rive (Animation)"],
       link: "https://github.com/olyanya/flutter-rating-stars",
     },
   ];
   return (
     <section id="works">
-      <h2 className="worksTitle">My Portfolio</h2>
+      <h2 className="worksTitle">My portfolio</h2>
       <span className="worksDesc">
-        I take pride in paying attention to the smallest details and making sure
-        that my work is pixel perfect. I'm exited to bring my skills and
-        background to help businesses achive their goals.
+        I pay attention to the smallest details and make sure that my work is
+        perfect. I'm excited to bring my skills and background to help
+        businesses achieve their goals.
       </span>
       <div className="worksProjects">
         {projects.map((project, index) => (
@@ -56,7 +56,7 @@ const Works = () => {
         rel="noopener noreferrer"
         className="worksButton"
       >
-        See More
+        See more
       </a>
     </section>
   );

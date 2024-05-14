@@ -1,9 +1,9 @@
 #intro {
-  height: calc(100vh - 4rem);
-  width: 100vh;
-  max-width: 100rem;
-  margin: 0 auto;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
 }
 
 .bg {
@@ -13,6 +13,7 @@
   z-index: -1;
   object-fit: cover;
   height: 100vh;
+  width: 100%;
 }
 
 .introContent {
@@ -24,20 +25,28 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .hello {
   font-size: 1.75rem;
   font-weight: 200;
+  margin-right: 25rem;
 }
 
 .introName {
-  color: goldenrod;
+  background: linear-gradient(90deg, #ffffff, goldenrod 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 17rem;
 }
 
 .introPara {
   font-size: medium;
   font-weight: 300;
+  margin-top: 0.5rem;
+  margin-left: 8.5rem;
+  text-align: start;
 }
 
 .button {
@@ -65,6 +74,14 @@
   }
   .hello {
     font-size: 4.5vw;
+    margin-right: auto; /* Center align hello text */
+  }
+  .introName {
+    margin-right: auto; /* Center align introName text */
+  }
+  .introPara {
+    margin-left: auto; /* Center align introPara text */
+    text-align: center; /* Center align introPara text */
   }
 }
 

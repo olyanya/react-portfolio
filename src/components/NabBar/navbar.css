@@ -25,9 +25,9 @@
 }
 
 .desktopMenuListItem:hover {
-  color: goldenrod;
+  color: rgb(250, 190, 38);
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid goldenrod;
+  border-bottom: 3px solid rgb(250, 190, 38);
 }
 
 .desktopMenuButton {
@@ -53,9 +53,9 @@
 }
 
 .active {
-  color: goldenrod;
+  color: rgb(250, 190, 38);
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid goldenrod;
+  border-bottom: 3px solid rgb(250, 190, 38);
 }
 
 .navMenu {

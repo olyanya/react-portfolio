@@ -47,7 +47,7 @@
 }
 
 .worksButton:hover {
-  background-color: goldenrod;
+  background-color: rgb(250, 190, 38);
 }
 
 .worksItems {
@@ -69,7 +69,7 @@
   top: 0.625rem;
   right: 0.625rem;
   cursor: pointer;
-  color: goldenrod;
+  color: rgb(250, 190, 38);
   height: 1.5rem;
   width: 1.5rem;
 }
@@ -100,11 +100,5 @@
 }
 
 .languageBox:hover {
-  background-color: goldenrod;
-}
-
-@media screen and (max-width: 585px) {
-  .worksImg {
-    height: 45vw;
-  }
+  background-color: rgb(250, 190, 38);
 }
