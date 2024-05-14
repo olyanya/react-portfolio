@@ -21,7 +21,7 @@ const Footer = () => {
           <FaGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/olha-horshkova-76a8952a0/"
+          href="https://www.linkedin.com/in/olha-horshkova/"
           target="_blank"
           rel="noopener noreferrer"
           className="footerIcon"
