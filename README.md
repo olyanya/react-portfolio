@@ -2,7 +2,7 @@
 
 Welcome to my React Portfolio!
 
-You can find the live version [here]().
+You can find the live version [here](https://olyanya.github.io/react-portfolio/).
 
 ## Description
 
