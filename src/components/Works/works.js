@@ -15,6 +15,11 @@ const Works = () => {
       link: "",
     },
     {
+      name: "Food Delivery Website",
+      languages: ["React JS", "HTML", "CSS"],
+      link: "https://github.com/olyanya/react-food-delivery-website",
+    },
+    {
       name: "TO-DO List",
       languages: ["React JS", "HTML", "CSS"],
       link: "https://github.com/olyanya/react-todo-list",
